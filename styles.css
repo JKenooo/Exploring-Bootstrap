@@ -1,0 +1,44 @@
+.item_carousel {
+    color: black !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 0%;
+    font-size: 5vw;
+}
+
+.sizing {
+
+    border-radius: 10px;
+
+}
+
+.navbar-brand {
+    font-family: 'Fasthand', cursive;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.buttonmenu {
+    display: flex;
+    justify-content: center;
+
+}
+
+h5 {
+    text-align: center;
+    background-color: #dc3545;
+    color: white !important;
+}
+
+@media screen and (min-width: 600px) {
+    .sizing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');

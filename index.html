@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exploring Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg bg-danger">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Tim Hortons</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Home</a>
+                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-aos="fade-left">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://timhortons.co.th/wp-content/uploads/2020/02/Dark-Chocolate-Creamy-Chill-min.png"
+                class="d-block w-100" alt="chocolate">
+              <div class="carousel-caption item_carousel">
+                <p>Chocolate</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://timhortons.co.th/wp-content/uploads/2020/02/Matcha-Creamy-chill-min.png"
+                class="d-block w-100" alt="matcha">
+              <div class="carousel-caption item_carousel">
+                <p>Matcha</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://timhortons.co.th/wp-content/uploads/2020/02/Strawberry-Shortcake-Creamy-Chill-min.png"
+                class="d-block w-100" alt="strawberry">
+              <div class="carousel-caption item_carousel">
+                <p>Strawberry</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+  </header>
+  <main class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-md-4 p-5 sizing" data-aos="fade-up">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://images.ctfassets.net/o19mhvm9a2cm/5IP1L3qBkJRsvPwDp849Pi/31b71ade89c63ed893167d92af22aa2e/Salted_Carmel___Chocolate_Cookie.png?&q=80&w=1000"
+            class="card-img-top" alt="cookies">
+          <div class="card-body">
+            <h5 class="card-title">Cookies</h5>
+            <p class="card-text">Classic cookies topped with chocolate chips.</p>
+            <a href="menu.html" class="btn btn-danger buttonmenu">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5 sizing" data-aos="fade-up">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.cobsbread.com/wp-content/uploads/2022/05/cobs-product-pizza-hawaiian-583x400-1.png"
+            class="card-img-top" alt="pizza bread">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Bread</h5>
+            <p class="card-text">Bread filled with your all-time favorite ham and cheese.</p>
+            <a href="menu.html" class="btn btn-danger buttonmenu">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5 sizing" data-aos="fade-up">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://www.otisspunkmeyer.com/sites/default/files/products/OS-Fundraising-BananaMuffinAngle_2017-20621-177.png"
+            class="card-img-top" alt="muffin">
+          <div class="card-body">
+            <h5 class="card-title">Muffin</h5>
+            <p class="card-text">Fluffy and creamy muffin that will satisfy your cravings.</p>
+            <a href="menu.html" class="btn btn-danger buttonmenu">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h5>All rights reserved 2023</h5>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
